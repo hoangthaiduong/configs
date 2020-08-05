@@ -4,3 +4,4 @@ cp C:/Users/User/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/
 git add -A .
 set /p msg="Enter commit message: "
 git commit -m "%msg%"
+git push origin
