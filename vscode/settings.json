@@ -1,0 +1,138 @@
+{
+    "headerSourceSwitch.mappings": [
+    {
+      "header": [
+        ".h",
+        ".inl",
+        ".hpp",
+        ".hh",
+        ".hxx",
+      ],
+      "source": [
+        ".inl",
+        ".cpp",
+        ".c",
+        ".cc",
+        ".cxx",
+        ".m",
+        ".mm"
+      ],
+      "name": "C++"
+    }
+  ],
+  // Toggle between terminal and editor focus
+    "processing.path": "C:/Users/User/scoop/shims/processing-java.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.cwd": "${fileDirname}",
+    "terminal.integrated.env.windows": {"PATH":"D:/Documents/Knowledge Base;${env:PATH}"},
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.colorCustomizations": {
+      "tab.activeBorder": "#efbbef",
+      "tab.unfocusedActiveBorder": "#ab55ab"
+    },
+    "editor.tabSize": 2,
+    "vim.useCtrlKeys": false,
+    "editor.rulers": [100],
+    "rewrap.wrappingColumn": 100,
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "texify",
+        "tools": [
+          "pdflatex",
+          "bibtex",
+          "pdflatex",
+          "pdflatex"
+        ]
+      },
+      {
+        "name": "latexmk",
+        "tools": ["latexmk"]
+      },],
+      "latex-workshop.latex.tools": [
+      {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-pdf",
+          "-outdir=%OUTDIR%",
+          "%DOC%"
+        ],
+        "env": {}
+      },
+      {
+        "name": "pdflatex",
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "bibtex",
+        "command": "bibtex",
+        "args": [
+        "%DOCFILE%"
+        ]
+      }
+      ],
+    "gitlens.codeLens.enabled": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "python.pythonPath": "C:\\Users\\User\\scoop\\apps\\anaconda3\\2019.03\\python.exe",
+    "workbench.colorTheme": "Visual Studio 2019 Light",
+    "d.servedPath": "C:\\Users\\User\\AppData\\Roaming\\code-d\\bin\\serve-d.exe",
+    "cSpell.diagnosticLevel": "Error",
+    "workbench.activityBar.visible": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.minimap.enabled": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "window.zoomLevel": -1,
+    "breadcrumbs.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.message.update.show": false,
+    "cSpell.userWords": [
+      "dequantize",
+      "voxel"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "sync.quietSync": true,
+    "sync.autoUpload": true,
+    "sync.gist": "324f5143c76de56ab54ed8860cc5c285",
+    "sync.autoDownload": true,
+    "sync.askGistName": true,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "html.format.wrapLineLength": 200,
+    "[markdown]":{
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.wordWrapColumn": 2000,
+    },
+    "editor.fontSize": 18,
+    "files.autoSaveDelay": 10000,
+    "editor.minimap.maxColumn": 100,
+    "workbench.iconTheme": "material-icon-theme",
+    "workspaceExplorer.workspaceStorageDirectory": "C:\\Users\\User\\workspaces",
+    "d.dcdClientPath": "C:\\Users\\User\\AppData\\Roaming\\code-d\\bin\\dcd-client.exe",
+    "d.dcdServerPath": "C:\\Users\\User\\AppData\\Roaming\\code-d\\bin\\dcd-server.exe",
+  }
